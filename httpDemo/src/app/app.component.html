@@ -2,6 +2,12 @@
   {{title}}
 </h1>
 
-<li *ngFor="let pmitem of items">
+<!--<li *ngFor="let pmitem of items">
   <label>{{ pmitem.SiteName  }}</label>
-</li>
+</li>-->
+
+<pre>{{ data|async|json}}</pre>
+
+<hr>
+
+{{ data | async | json }}

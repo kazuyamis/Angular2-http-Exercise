@@ -1,0 +1,6 @@
+{
+  "/ws": {
+    "target": "http://opendata.epa.gov.tw",
+    "secure": false
+  }
+}
