@@ -1,3 +1,4 @@
+import { Pm25Service } from './pm25.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -14,7 +15,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [Pm25Service],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
